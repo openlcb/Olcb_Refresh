@@ -33,9 +33,8 @@
 
 //************** End of USER DEFINTIONS *****************************
   
-//#include "processor.h"            // auto-selects the processor type, and CAN lib, EEPROM lib etc.  
-//#include "OpenLCBHeader.h"        // System house-keeping.
-#include “OpenLCB_Refresh.h”
+#include "processor.h"            // auto-selects the processor type, and CAN lib, EEPROM lib etc.
+#include "OpenLCBHeader.h"        // System house-keeping.
 
 NodeID nodeid(NODEID);            // instansiate the nodeid
 
